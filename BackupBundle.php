@@ -1,6 +1,6 @@
 <?php
 
-namespace App\BackupBundle;
+namespace BastSys\BackupBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

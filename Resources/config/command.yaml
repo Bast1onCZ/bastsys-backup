@@ -1,6 +1,6 @@
 services:
     backup.command.create:
-        class: App\BackupBundle\Command\CreateBackupCommand
+        class: BastSys\BackupBundle\Command\CreateBackupCommand
         arguments:
             - '@filesystem'
             - '%backup.directory%'

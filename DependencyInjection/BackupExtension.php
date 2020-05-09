@@ -1,6 +1,6 @@
 <?php
 
-namespace App\BackupBundle\DependencyInjection;
+namespace BastSys\BackupBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -9,7 +9,7 @@ use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
 /**
  * Class BackupExtension
- * @package App\BackupBundle\DependencyInjection
+ * @package BastSys\BackupBundle\DependencyInjection
  * @author mirkl
  */
 class BackupExtension extends Extension

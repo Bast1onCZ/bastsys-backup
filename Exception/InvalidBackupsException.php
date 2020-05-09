@@ -1,10 +1,10 @@
 <?php
 
-namespace App\BackupBundle\Exception;
+namespace BastSys\BackupBundle\Exception;
 
 /**
  * Class InvalidBackupsException
- * @package App\BackupBundle\Exception
+ * @package BastSys\BackupBundle\Exception
  * @author mirkl
  */
 class InvalidBackupsException extends BackupException

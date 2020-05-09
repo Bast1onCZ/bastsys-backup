@@ -1,9 +1,9 @@
 <?php
 
-namespace App\BackupBundle\Command;
+namespace BastSys\BackupBundle\Command;
 
-use App\BackupBundle\Exception\InvalidBackupsException;
-use App\BackupBundle\Structure\DatabaseUrl;
+use BastSys\BackupBundle\Exception\InvalidBackupsException;
+use BastSys\BackupBundle\Structure\DatabaseUrl;
 use Shapecode\Bundle\CronBundle\Annotation\CronJob;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -14,7 +14,7 @@ use Symfony\Component\Filesystem\Filesystem;
  * @CronJob("0 0 * * *")
  *
  * Class CreateBackupCommand
- * @package App\BackupBundle\Command
+ * @package BastSys\BackupBundle\Command
  * @author mirkl
  */
 class CreateBackupCommand extends Command

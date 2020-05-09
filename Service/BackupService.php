@@ -1,10 +1,10 @@
 <?php
 
-namespace App\BackupBundle\Service;
+namespace BastSys\BackupBundle\Service;
 
 /**
  * Class BackupService
- * @package App\BackupBundle\Service
+ * @package BastSys\BackupBundle\Service
  * @author mirkl
  */
 class BackupService

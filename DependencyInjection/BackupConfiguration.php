@@ -1,13 +1,13 @@
 <?php
 
-namespace App\BackupBundle\DependencyInjection;
+namespace BastSys\BackupBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
 
 /**
  * Class BackupConfiguration
- * @package App\BackupBundle\DependencyInjection
+ * @package BastSys\BackupBundle\DependencyInjection
  * @author mirkl
  */
 class BackupConfiguration implements ConfigurationInterface

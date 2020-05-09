@@ -1,12 +1,10 @@
 <?php
 
-namespace App\BackupBundle\Structure;
-
-use InvalidArgumentException;
+namespace BastSys\BackupBundle\Structure;
 
 /**
  * Class DatabaseUrl
- * @package App\BackupBundle\Structure
+ * @package BastSys\BackupBundle\Structure
  * @author mirkl
  */
 class DatabaseUrl
@@ -40,7 +38,7 @@ class DatabaseUrl
     {
         $matches = [];
         if(!preg_match('/(\w+):\/\/(\w+)(?::(\w+))?@([\w.]+)\/(\w+)/', $databaseUrl, $matches)) {
-            throw new InvalidArgumentException('Invalid database url');
+            throw new \InvalidArgumentException('Invalid database url');
         }
 
         $this->type = $matches[1];
