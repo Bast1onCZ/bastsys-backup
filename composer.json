@@ -1,7 +1,7 @@
 {
-    "name": "bastsys/backup",
+    "name": "bastsys/backup-bundle",
     "description": "Symfony backup for database and file storage",
-    "type": "symfony bundle",
+    "type": "symfony-bundle",
     "license": "UNLICENSED",
     "authors": [
         {
