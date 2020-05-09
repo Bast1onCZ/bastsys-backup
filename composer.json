@@ -1,0 +1,23 @@
+{
+    "name": "bastsys/backup",
+    "description": "Symfony backup for database and file storage",
+    "type": "symfony bundle",
+    "license": "UNLICENSED",
+    "authors": [
+        {
+            "name": "Miroslav Klobaska",
+            "email": "mir.klobaska@seznam.cz"
+        }
+    ],
+    "require": {
+        "php": "^7.2.11",
+        "symfony/filesystem": "^5.0",
+        "symfony/http-kernel": "^5.0",
+        "symfony/console": "^5.0",
+        "symfony/dependency-injection": "^5.0",
+        "symfony/config": "^5.0",
+        "symfony/yaml": "^5.0",
+        "symfony/proxy-manager-bridge": "^5.0",
+        "shapecode/cron-bundle": "^4.0"
+    }
+}

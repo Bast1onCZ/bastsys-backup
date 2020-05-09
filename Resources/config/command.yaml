@@ -1,0 +1,11 @@
+services:
+    backup.command.create:
+        class: App\BackupBundle\Command\CreateBackupCommand
+        arguments:
+            - '@filesystem'
+            - '%backup.directory%'
+            - '%backup.maxBackups%'
+            - '%backup.database%'
+            - '%backup.filesDirectory%'
+        tags:
+            - console.command
