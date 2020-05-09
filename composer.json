@@ -3,6 +3,7 @@
     "description": "Symfony backup for database and file storage",
     "type": "symfony-bundle",
     "license": "proprietary",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Miroslav Klobaska",
