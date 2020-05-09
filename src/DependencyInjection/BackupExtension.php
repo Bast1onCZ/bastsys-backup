@@ -29,7 +29,7 @@ class BackupExtension extends Extension
         $container->setParameter('backup.database', $config['database'] ?? null);
         $container->setParameter('backup.filesDirectory', $config['filesDirectory'] ?? null);
 
-        $serviceLoader = new YamlFileLoader($container, new FileLocator(__DIR__ .'/../Resources/config'));
+        $serviceLoader = new YamlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
         $serviceLoader->load('command.yaml');
     }
 
