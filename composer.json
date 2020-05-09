@@ -2,7 +2,7 @@
     "name": "bastsys/backup-bundle",
     "description": "Symfony backup for database and file storage",
     "type": "symfony-bundle",
-    "license": "UNLICENSED",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Miroslav Klobaska",
